@@ -6,4 +6,4 @@ model = YOLO(r"C:\Users\Aleena Ajith\OneDrive\Desktop\YOLO\Pose_Estimation\best.
 
 # Predict with the model
 results = model(r"C:\Users\Aleena Ajith\OneDrive\Desktop\YOLO\Pose_Estimation\cycling.mp4", 
-                show=True, conf=0.3, save=True, show_boxes=False)  # predict on an image
+                show=True, conf=0.3, save=True, show_boxes=False)  # predict on video
